@@ -8,12 +8,12 @@ class DataKehadiran extends DB {
     }
 
     // Get Attribute
-    function getTanggalKehadiran($nip) {
-        $query = "SELECT tanggal_kehadiran FROM pegawai WHERE no_induk='nip'";
+    function getTanggalKehadiran($id) {
+        $query = "SELECT tanggal_kehadiran FROM data_kehadiran WHERE id_kehadiran='$id'";
         return $this->execute($query);
     }
-    function getWaktuKehadiran($nip) {
-        $query = "SELECT waktu_kehadiran FROM pegawai WHERE no_induk='nip'";
+    function getWaktuKehadiran($id) {
+        $query = "SELECT waktu_kehadiran FROM data_kehadiran WHERE id_kehadiran='$id'";
         return $this->execute($query);
     }
 }

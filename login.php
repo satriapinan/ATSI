@@ -36,7 +36,16 @@ if($nip != '' && $password != '') {
 		$_SESSION['divisi'] = $data['divisi'];
 
 		setcookie("message", "", time()+60);
-		header("location: menu1_operator.php");
+
+		if ($data['jabatan'] == "Operator") {
+			header("location: menu1_operator.php");
+		}
+		else if ($data['jabatan'] == "Manajer") {
+			header("location: menu1_manajer.php");
+		}
+		else if ($data['jabatan'] == "Karyawan") {
+			header("location: menu1_karyawan.php");
+		}
 	}
 }
 

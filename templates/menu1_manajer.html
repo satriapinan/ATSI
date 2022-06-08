@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Daftar Pegawai</title>
+		<title>Daftar Karyawan</title>
 		
 		<!-- Title Icon -->
 		<link rel="icon" href="https://i.postimg.cc/LXd9C1Dx/Logo.png">
@@ -35,11 +35,8 @@
 			<aside class="col-1 bg-primary d-flex justify-content-center vh-custom">
 				<div class="d-flex flex-column mt-4 justify-content-between">
 					<div class="d-flex flex-column">
-						<a href="menu1_operator.php" class="py-2 px-4-5" id="menu-button">
+						<a href="menu1_manajer.php" class="py-2 px-4-5" id="menu-button">
 							<i class="fa fa-address-book-o fs-3"></i>
-						</a>
-						<a href="menu2_operator.php" class="py-2 px-4-5" id="menu2-button">
-							<i class="fa fa-user-plus fs-3"></i>
 						</a>
 					</div>
 					<a href="logout.php" class="py-2 px-4-5 mb-3" id="logout-button">
@@ -49,16 +46,14 @@
 			</aside>
 			<aside class="col-1-5 bg-white vh-custom p-0 shadow-sm collapse" id="sidebar">
 				<div class="d-flex flex-column mt-4 justify-content-between">
-					<a href="menu1_operator.php" class="text-decoration-none text-black">
+					<a href="menu1_manajer.php" class="text-decoration-none text-black">
 						<div class="py-2-5 px-2" id="menu-text">
-							<h6 class="m-0" style="letter-spacing: 1px;">Daftar Pegawai</h6>
+							<h6 class="m-0" style="letter-spacing: 1px;">Daftar Karyawan</h6>
 						</div>
 					</a>
-					<a href="menu2_operator.php" class="text-decoration-none text-black">
-						<div class="py-2-5 px-2" id="menu2-text">
-							<h6 class="m-0" style="letter-spacing: 1px;">Tambah Pegawai</h6>
-						</div>
-					</a>
+					<div class="py-2-5 px-2">
+						<h6 class="m-0 text-white" style="letter-spacing: 1px;">-</h6>
+					</div>
 					<a href="logout.php" class="text-decoration-none text-black mt-custom">
 						<div class="py-2-5 px-2" id="logout-text">
 							<h6 class="m-0" style="letter-spacing: 1px;">Keluar</h6>
@@ -68,41 +63,19 @@
 			</aside>
 			<content class="col">
 				<div class="p-5">
-					<div class="d-flex mb-4">
-						SORTING_JABATAN_ALL
-						SORTING_JABATAN_KARYAWAN
-						SORTING_JABATAN_OPERATOR
-						SORTING_JABATAN_MANAGER
-					</div>
-					
 					<div class="d-flex mb-3 justify-content-between align-items-center">
 						TITLE_TABLE
 						<div class="d-flex">
-							<div class="dropdown me-2">
-								<button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-								Pilih Divisi
-								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-									SORTING_DIVISI_ALL
-									SORTING_DIVISI
-								</ul>
-							</div>
 							<div class="dropdown">
 								<button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 								Urut
 								</button>
 								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-									<li><a class="dropdown-item" href="menu1_operator.php?order=nip">
+									<li><a class="dropdown-item" href="menu1_manajer.php?order=nip">
 										NIP
 									</a></li>
-									<li><a class="dropdown-item" href="menu1_operator.php?order=nama">
+									<li><a class="dropdown-item" href="menu1_manajer.php?order=nama">
 										Nama
-									</a></li>
-									<li><a class="dropdown-item" href="menu1_operator.php?order=jabatan">
-										Jabatan
-									</a></li>
-									<li><a class="dropdown-item" href="menu1_operator.php?order=divisi">
-										Divisi
 									</a></li>
 								</ul>
 							</div>
@@ -161,45 +134,6 @@
 		    	$("#menu-text").css("background-color", "transparent");
 		    	// $("#menu-button").css("color", "#fff");
 		    	// $("#menu-button").css("background-color", "transparent");
-		  	});
-		</script>
-		<!-- Script for hover menu 2 -->
-		<script>
-			$("#menu2-button").css("color", "#fff");
-		    $("#menu2-button").css("background-color", "transparent");
-			
-			$("#menu2-button").mouseenter(function()
-			{
-				$("#menu2-button").css("background-color", "#fff");
-		    	$("#menu2-button").css("color", "#4075AD");
-		    	$("#menu2-text").css("background-color", "#f8f9fa");
-		    	$("#menu-button").css("color", "#fff");
-		    	$("#menu-button").css("background-color", "transparent");
-		  	});
-		  	$("#menu2-button").mouseleave(function()
-			{
-		    	$("#menu2-text").css("background-color", "transparent");
-		    	$("#menu2-button").css("color", "#fff");
-		    	$("#menu2-button").css("background-color", "transparent");
-		    	$("#menu-button").css("color", "#4075AD");
-		    	$("#menu-button").css("background-color", "#fff");
-		  	});
-
-		  	$("#menu2-text").mouseenter(function()
-			{
-		    	$("#menu2-text").css("background-color", "#f8f9fa");
-		    	$("#menu2-button").css("background-color", "#fff");
-		    	$("#menu2-button").css("color", "#4075AD");
-		    	$("#menu-button").css("color", "#fff");
-		    	$("#menu-button").css("background-color", "transparent");
-		  	});
-		  	$("#menu2-text").mouseleave(function()
-			{
-		    	$("#menu2-text").css("background-color", "transparent");
-		    	$("#menu2-button").css("color", "#fff");
-		    	$("#menu2-button").css("background-color", "transparent");
-		    	$("#menu-button").css("color", "#4075AD");
-		    	$("#menu-button").css("background-color", "#fff");
 		  	});
 		</script>
 		<!-- Script for hover Logout -->

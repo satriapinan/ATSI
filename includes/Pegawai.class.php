@@ -14,6 +14,10 @@ class Pegawai extends DB {
         $query = "SELECT * FROM pegawai WHERE no_induk='$nip'";
         return $this->execute($query);
     }
+    function getForManajer($divisi) {
+        $query = "SELECT * FROM pegawai WHERE jabatan='Karyawan' AND divisi='$divisi'";
+        return $this->execute($query);
+    }
 
     // Sort
     function sortJabatan($jabatan) {
@@ -30,6 +34,10 @@ class Pegawai extends DB {
         $query = "SELECT * FROM pegawai ORDER BY nama_pegawai";
         return $this->execute($query);
     }
+    function orderNamaForManajer($divisi) {
+        $query = "SELECT * FROM pegawai WHERE jabatan='Karyawan' AND divisi='$divisi' ORDER BY nama_pegawai";
+        return $this->execute($query);
+    }
     function orderJabatan() {
         $query = "SELECT * FROM pegawai ORDER BY jabatan";
         return $this->execute($query);
@@ -41,19 +49,19 @@ class Pegawai extends DB {
 
     // Get Attribute
     function getNamaPegawai($nip) {
-        $query = "SELECT nama_pegawai FROM pegawai WHERE no_induk='nip'";
+        $query = "SELECT nama_pegawai FROM pegawai WHERE no_induk='$nip'";
         return $this->execute($query);
     }
     function getJabatan($nip) {
-        $query = "SELECT jabatan FROM pegawai WHERE no_induk='nip'";
+        $query = "SELECT jabatan FROM pegawai WHERE no_induk='$nip'";
         return $this->execute($query);
     }
     function getDivisi($nip) {
-        $query = "SELECT divisi FROM pegawai WHERE no_induk='nip'";
+        $query = "SELECT divisi FROM pegawai WHERE no_induk='$nip'";
         return $this->execute($query);
     }
     function getNoTelp($nip) {
-        $query = "SELECT no_telp FROM pegawai WHERE no_induk='nip'";
+        $query = "SELECT no_telp FROM pegawai WHERE no_induk='$nip'";
         return $this->execute($query);
     }
     function getEmail($nip) {

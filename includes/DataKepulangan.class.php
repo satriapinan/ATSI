@@ -8,12 +8,12 @@ class DataKepulangan extends DB {
     }
 
     // Get Attribute
-    function getTanggalKepulangan($nip) {
-        $query = "SELECT tanggal_kepulangan FROM pegawai WHERE no_induk='nip'";
+    function getTanggalKepulangan($id) {
+        $query = "SELECT tanggal_kepulangan FROM data_kepulangan WHERE id_kepulangan='$id'";
         return $this->execute($query);
     }
-    function getWaktuKepulangan($nip) {
-        $query = "SELECT waktu_kepulangan FROM pegawai WHERE no_induk='nip'";
+    function getWaktuKepulangan($id) {
+        $query = "SELECT waktu_kepulangan FROM data_kepulangan WHERE id_kepulangan='$id'";
         return $this->execute($query);
     }
 }

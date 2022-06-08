@@ -6,23 +6,18 @@ class LaporanAbsensi extends DB {
         $query = "SELECT * FROM laporan_absensi";
         return $this->execute($query);
     }
-
-    // Get Attribute
-    function getIDKehadiran($nip) {
-        $query = "SELECT id_kehadiran FROM laporan_absensi WHERE no_induk='nip'";
+    function getSLaporanAbsensi($nip) {
+        $query = "SELECT * FROM laporan_absensi WHERE no_induk='$nip'";
         return $this->execute($query);
     }
-    function getIDKepulangan($nip) {
-        $query = "SELECT id_kepulangan FROM laporan_absensi WHERE no_induk='nip'";
-        return $this->execute($query);
-    }
-    function getStatusValidasi($nip) {
-        $query = "SELECT status_validasi FROM laporan_absensi WHERE no_induk='nip'";
+    function getLaporanValidasi($status, $nip) {
+        $query = "SELECT * FROM laporan_absensi 
+                  WHERE status_validasi='$status' AND no_induk='$nip'";
         return $this->execute($query);
     }
 
-    function setStatusValidasi($nip) {
-        $query = "UPDATE laporan_absensi SET status_validasi=1 WHERE no_induk='nip'";
+    function setStatusValidasi($id) {
+        $query = "UPDATE laporan_absensi SET status_validasi=1 WHERE id_laporan='$id'";
         return $this->execute($query);
     }
 }
