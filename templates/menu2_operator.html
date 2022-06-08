@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Tambah Data</title>
+		
+		<!-- Title Icon -->
+		<link rel="icon" href="https://i.postimg.cc/LXd9C1Dx/Logo.png">
+		<!-- CSS/Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<!-- Icon -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body class="container-fluid vh-100 bg-light">
+		<header class="row">
+			<div class="col-1 bg-primary d-flex align-items-center justify-content-center">
+				<a data-bs-toggle="collapse" href="#sidebar" role="button" aria-expanded="false" aria-controls="sidebar" class="text-decoration-none"><i class="fa fa-bars fs-4 text-white"></i></a>
+			</div>
+			<a class="col-1-5 bg-white d-flex align-items-center justify-content-center border border-top-0 border-start-0 text-decoration-none" href="">
+				<img src="Asset/Logo.png" class="img-fluid w-50">
+			</a>
+			<div class="col bg-white d-flex justify-content-end align-items-center shadow-sm">
+				<div class="d-flex me-5 justify-content-between align-items-center">
+					<i class="fa fa-user-circle-o me-2 fs-1"></i>
+					<div>
+						USER
+					</div>
+				</div>
+			</div>	
+		</header>
+		<main class="row">
+			<aside class="col-1 bg-primary d-flex justify-content-center vh-custom">
+				<div class="d-flex flex-column mt-4 justify-content-between">
+					<div class="d-flex flex-column">
+						<a href="menu1_operator.php" class="py-2 px-4-5" id="menu-button">
+							<i class="fa fa-address-book-o fs-3"></i>
+						</a>
+						<a href="menu2_operator.php" class="py-2 px-4-5" id="menu2-button">
+							<i class="fa fa-user-plus fs-3"></i>
+						</a>
+					</div>
+					<a href="logout.php" class="py-2 px-4-5 mb-3" id="logout-button">
+						<i class="fa fa-arrow-circle-o-left fs-3"></i>
+					</a>
+				</div>
+			</aside>
+			<aside class="col-1-5 bg-white vh-custom p-0 shadow-sm collapse" id="sidebar">
+				<div class="d-flex flex-column mt-4 justify-content-between">
+					<a href="menu1_operator.php" class="text-decoration-none text-black">
+						<div class="py-2-5 px-2" id="menu-text">
+							<h6 class="m-0" style="letter-spacing: 1px;">Daftar Pegawai</h6>
+						</div>
+					</a>
+					<a href="menu2_operator.php" class="text-decoration-none text-black">
+						<div class="py-2-5 px-2" id="menu2-text">
+							<h6 class="m-0" style="letter-spacing: 1px;">Tambah Pegawai</h6>
+						</div>
+					</a>
+					<a href="logout.php" class="text-decoration-none text-black mt-custom">
+						<div class="py-2-5 px-2" id="logout-text">
+							<h6 class="m-0" style="letter-spacing: 1px;">Keluar</h6>
+						</div>
+					</a>
+				</div>
+			</aside>
+			<content class="col">
+				<div class="p-5">
+					<h3 class="mb-3">Tambah Pegawai</h3>
+					<form action="menu2_operator.php" method="POST" class="border rounded p-4 bg-white shadow-sm">
+                        <div class="row">
+                            FORM
+                            <div class="col-md-12">
+                               <a href="" class="btn btn-danger">Batal</a>
+                               SUBMIT_BUTTON
+                            </div>
+                        </div>
+                    </form>
+				</div>
+			</content>
+		</main>
+
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Script for hover menu 1 -->
+		<script>
+			$("#menu-button").css("color", "#fff");
+		    $("#menu-button").css("background-color", "transparent");
+			
+			$("#menu-button").mouseenter(function()
+			{
+				$("#menu-button").css("background-color", "#fff");
+		    	$("#menu-button").css("color", "#4075AD");
+		    	$("#menu-text").css("background-color", "#f8f9fa");
+
+		    	$("#menu2-button").css("color", "#fff");
+		    	$("#menu2-button").css("background-color", "transparent");
+		  	});
+		  	$("#menu-button").mouseleave(function()
+			{
+		    	$("#menu-text").css("background-color", "transparent");
+		    	$("#menu-button").css("color", "#fff");
+		    	$("#menu-button").css("background-color", "transparent");
+
+		    	$("#menu2-button").css("background-color", "#fff");
+		    	$("#menu2-button").css("color", "#4075AD");
+		  	});
+
+		  	$("#menu-text").mouseenter(function()
+			{
+		    	$("#menu-text").css("background-color", "#f8f9fa");
+		    	$("#menu-button").css("background-color", "#fff");
+		    	$("#menu-button").css("color", "#4075AD");
+
+		    	$("#menu2-button").css("color", "#fff");
+		    	$("#menu2-button").css("background-color", "transparent");
+		  	});
+		  	$("#menu-text").mouseleave(function()
+			{
+		    	$("#menu-text").css("background-color", "transparent");
+		    	$("#menu-button").css("color", "#fff");
+		    	$("#menu-button").css("background-color", "transparent");
+
+		    	$("#menu2-button").css("background-color", "#fff");
+		    	$("#menu2-button").css("color", "#4075AD");
+		  	});
+		</script>
+		<!-- Script for hover menu 2 -->
+		<script>
+			$("#menu2-button").css("background-color", "#fff");
+		    $("#menu2-button").css("color", "#4075AD");
+			
+			$("#menu2-button").mouseenter(function()
+			{
+		    	$("#menu2-text").css("background-color", "#f8f9fa");
+		  	});
+		  	$("#menu2-button").mouseleave(function()
+			{
+		    	$("#menu2-text").css("background-color", "transparent");
+		  	});
+
+		  	$("#menu2-text").mouseenter(function()
+			{
+		    	$("#menu2-text").css("background-color", "#f8f9fa");
+		  	});
+		  	$("#menu2-text").mouseleave(function()
+			{
+		    	$("#menu2-text").css("background-color", "transparent");
+		  	});
+		</script>
+		<!-- Script for hover Logout -->
+		<script>
+			$("#logout-button").css("color", "#fff");
+		    $("#logout-button").css("background-color", "#transparent");
+			
+			$("#logout-button").mouseenter(function()
+			{
+				$("#logout-button").css("background-color", "#fff");
+		    	$("#logout-button").css("color", "#D92027");
+		    	$("#logout-text").css("background-color", "#D92027");
+		    	$("#logout-text").css("color", "#fff");
+		  	});
+		  	$("#logout-button").mouseleave(function()
+			{
+		    	$("#logout-text").css("background-color", "transparent");
+		    	$("#logout-text").css("color", "#000");
+		    	$("#logout-button").css("color", "#fff");
+		    	$("#logout-button").css("background-color", "transparent");
+		  	});
+
+		  	$("#logout-text").mouseenter(function()
+			{
+		    	$("#logout-button").css("background-color", "#fff");
+		    	$("#logout-button").css("color", "#D92027");
+		    	$("#logout-text").css("background-color", "#D92027");
+		    	$("#logout-text").css("color", "#fff");
+		  	});
+		  	$("#logout-text").mouseleave(function()
+			{
+		    	$("#logout-text").css("background-color", "transparent");
+		    	$("#logout-text").css("color", "#000");
+		    	$("#logout-button").css("color", "#fff");
+		    	$("#logout-button").css("background-color", "transparent");
+		  	});
+		</script>
+
+		<!-- Script JS for Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	</body>
+</html>

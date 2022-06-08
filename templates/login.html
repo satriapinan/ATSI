@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Masuk</title>
+		
+		<!-- Title Icon -->
+		<link rel="icon" href="https://i.postimg.cc/LXd9C1Dx/Logo.png">
+		<!-- CSS/Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<!-- Icon -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<style type="text/css">
+			* {
+				/*border: 1px solid black;*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid vh-100 bg-light d-flex align-items-center justify-content-center">
+			<div class="row col-6">
+				ERROR_LOGIN
+				<div class="row p-0 shadow rounded">
+					<div class="col-6 bg-primary text-center p-5 rounded-start">
+						<img src="Asset/orang.png" class="img-fluid rounded-circle w-75" alt="person icon">
+						<h3 class="text-white mb-0">Selamat Datang!</h3>
+						<p class="text-white-50">Silahkan masuk ke akun anda</p>
+						<i class="fa fa-chevron-circle-right text-white fs-1"></i>
+					</div>
+					<div class="col-6 bg-white d-flex rounded-end align-items-center">
+						<div class="text-center">
+							<img src="Asset/Logo.png" class="img-fluid w-25">
+							<div class="d-flex justify-content-center">
+								<span class="line mt-1 mb-3"></span>
+							</div>
+							<form action="login.php" method="POST" class="px-3">
+								<div class="form-floating mb-2">
+									<input name="nip" type="text" class="form-control" id="nip" placeholder="NIP">
+									<label for="nip"><i class="fa fa-address-card-o me-1"></i>Nomor Induk Pegawai</label>
+								</div>
+								<div class="form-floating mb-2">
+									<input name="pass" type="password" class="form-control" id="password" placeholder="Password">
+									<label for="password"><i class="fa fa-lock me-1"></i>Kata Sandi</label>
+								</div>
+								<button type="submit" class="btn btn-primary w-100">Masuk</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Script JS for Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	</body>
+</html>
