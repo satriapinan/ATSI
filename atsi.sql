@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2022 at 04:38 PM
+-- Generation Time: Jun 09, 2022 at 06:42 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -39,7 +39,14 @@ CREATE TABLE `data_kehadiran` (
 --
 
 INSERT INTO `data_kehadiran` (`id_kehadiran`, `no_induk`, `tanggal_kehadiran`, `waktu_kehadiran`) VALUES
-(1, '2001360', '2022-06-06', '07:30:05');
+(1, '2001360', '2022-06-06', '07:30:05'),
+(2, '2001360', '2022-06-07', '07:45:22'),
+(3, '2001360', '2022-06-08', '08:01:02'),
+(4, '2001360', '2022-06-09', '07:22:48'),
+(5, '2005319', '2022-06-06', '07:51:37'),
+(6, '2005319', '2022-06-07', '07:45:12'),
+(7, '2005319', '2022-06-08', '07:37:04'),
+(8, '2005319', '2022-06-09', '00:00:00');
 
 -- --------------------------------------------------------
 
@@ -59,7 +66,14 @@ CREATE TABLE `data_kepulangan` (
 --
 
 INSERT INTO `data_kepulangan` (`id_kepulangan`, `no_induk`, `tanggal_kepulangan`, `waktu_kepulangan`) VALUES
-(1, '2001360', '2022-06-06', '16:05:07');
+(1, '2001360', '2022-06-06', '16:05:07'),
+(2, '2001360', '2022-06-07', '16:03:51'),
+(3, '2001360', '2022-06-08', '16:15:51'),
+(4, '2001360', '2022-06-09', '16:06:59'),
+(5, '2005319', '2022-06-06', '16:15:21'),
+(6, '2005319', '2022-06-07', '16:05:01'),
+(7, '2005319', '2022-06-08', '16:06:04'),
+(8, '2005319', '2022-06-09', '00:00:00');
 
 -- --------------------------------------------------------
 
@@ -70,8 +84,8 @@ INSERT INTO `data_kepulangan` (`id_kepulangan`, `no_induk`, `tanggal_kepulangan`
 CREATE TABLE `laporan_absensi` (
   `id_laporan` int(11) NOT NULL,
   `no_induk` varchar(20) NOT NULL,
-  `id_kehadiran` int(11) NOT NULL,
-  `id_kepulangan` int(11) NOT NULL,
+  `id_kehadiran` int(11) DEFAULT NULL,
+  `id_kepulangan` int(11) DEFAULT NULL,
   `status_validasi` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -80,7 +94,14 @@ CREATE TABLE `laporan_absensi` (
 --
 
 INSERT INTO `laporan_absensi` (`id_laporan`, `no_induk`, `id_kehadiran`, `id_kepulangan`, `status_validasi`) VALUES
-(1, '2001360', 1, 1, 1);
+(1, '2001360', 1, 1, 1),
+(2, '2001360', 2, 2, 1),
+(3, '2001360', 3, 3, 1),
+(4, '2001360', 4, 4, 0),
+(5, '2005319', 5, 5, 1),
+(6, '2005319', 6, 6, 1),
+(7, '2005319', 7, 7, 1),
+(8, '2005319', 8, 8, 0);
 
 -- --------------------------------------------------------
 
@@ -129,7 +150,8 @@ CREATE TABLE `rekap_absensi` (
 --
 
 INSERT INTO `rekap_absensi` (`id_rekap`, `hadir`, `tidak_hadir`, `telat`, `no_induk`) VALUES
-(1, 1, 0, 0, '2001360');
+(1, 3, 0, 1, '2001360'),
+(2, 3, 1, 0, '2005319');
 
 -- --------------------------------------------------------
 
@@ -159,7 +181,16 @@ INSERT INTO `riwayat_login` (`id_login`, `no_induk`, `tanggal_login`, `waktu_log
 (13, '2001123', '0000-00-00', '00:00:00'),
 (14, '2001123', '0000-00-00', '00:00:00'),
 (15, '2001123', '0000-00-00', '00:00:00'),
-(16, '2001123', '0000-00-00', '00:00:00');
+(16, '2001123', '0000-00-00', '00:00:00'),
+(17, '2000514', '0000-00-00', '00:00:00'),
+(20, '2001360', '0000-00-00', '00:00:00'),
+(21, '2001360', '0000-00-00', '00:00:00'),
+(22, '2005319', '0000-00-00', '00:00:00'),
+(23, '2001123', '0000-00-00', '00:00:00'),
+(24, '2001360', '0000-00-00', '00:00:00'),
+(25, '2000514', '0000-00-00', '00:00:00'),
+(26, '2000514', '0000-00-00', '00:00:00'),
+(27, '2001360', '0000-00-00', '00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -216,31 +247,31 @@ ALTER TABLE `riwayat_login`
 -- AUTO_INCREMENT for table `data_kehadiran`
 --
 ALTER TABLE `data_kehadiran`
-  MODIFY `id_kehadiran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_kehadiran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `data_kepulangan`
 --
 ALTER TABLE `data_kepulangan`
-  MODIFY `id_kepulangan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_kepulangan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `laporan_absensi`
 --
 ALTER TABLE `laporan_absensi`
-  MODIFY `id_laporan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_laporan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `rekap_absensi`
 --
 ALTER TABLE `rekap_absensi`
-  MODIFY `id_rekap` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_rekap` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `riwayat_login`
 --
 ALTER TABLE `riwayat_login`
-  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- Constraints for dumped tables
