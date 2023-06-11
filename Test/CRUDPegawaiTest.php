@@ -29,9 +29,18 @@ class CRUDPegawaiTest extends PHPUnit\Framework\TestCase
             'pass' => 'password'
         );
 
-        $result = self::$pegawai->addPegawai($data);
+        $before = self::$pegawai->getPegawai();
+        $rowsBefore = array();
+        while ($row = $before->fetch_assoc()) {
+            $rowsBefore[] = $row;
+        }
+        $countBefore = count($rowsBefore);
 
+        $result = self::$pegawai->addPegawai($data);
         $this->assertTrue($result);
+
+        $pegawaiData = self::$pegawai->getPegawai();
+        $this->assertCount($countBefore + 1, $pegawaiData);
     }
 
     public function testUpdatePegawai()
@@ -47,7 +56,6 @@ class CRUDPegawaiTest extends PHPUnit\Framework\TestCase
         );
 
         $result = self::$pegawai->updatePegawai($data);
-
         $this->assertTrue($result);
     }
 
@@ -55,8 +63,17 @@ class CRUDPegawaiTest extends PHPUnit\Framework\TestCase
     {
         $nip = '2000999';
 
-        $result = self::$pegawai->deletePegawai($nip);
+        $before = self::$pegawai->getPegawai();
+        $rowsBefore = array();
+        while ($row = $before->fetch_assoc()) {
+            $rowsBefore[] = $row;
+        }
+        $countBefore = count($rowsBefore);
 
+        $result = self::$pegawai->deletePegawai($nip);
         $this->assertTrue($result);
+
+        $pegawaiData = self::$pegawai->getPegawai();
+        $this->assertCount($countBefore - 1, $pegawaiData);
     }
 }

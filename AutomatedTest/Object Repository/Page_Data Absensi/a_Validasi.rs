@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Validasi</name>
+   <tag></tag>
+   <elementGuidId>b7a4c882-2088-4c7c-88e3-449589ef6fb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-success</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Validasi')])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0e464022-fc60-4b54-aaa1-3f8aaeec9adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu2_manajer.php?validasi=8</value>
+      <webElementGuid>25f50537-33fc-4591-a00e-3328ce012a63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>ab07a503-860e-449d-8747-66cbdec493a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+							Validasi
+						</value>
+      <webElementGuid>f67144bc-a996-483b-9aae-d1e178e37f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/table[@class=&quot;table shadow-sm p-3 bg-body rounded-1&quot;]/tbody[1]/tr[4]/td[4]/a[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>f8df3460-6a57-4416-85a8-b84b370c990f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Validasi')])[3]</value>
+      <webElementGuid>b2ea7006-c976-4d6d-be2a-e58157432718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Validasi'])[1]/following::a[1]</value>
+      <webElementGuid>a8efb141-4edb-498f-9946-42528b3dcc43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Waktu Kepulangan'])[1]/following::a[1]</value>
+      <webElementGuid>a38fd5f4-d8f3-4756-afe4-e356875f53f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu2_manajer.php?validasi=8')]</value>
+      <webElementGuid>f34f66df-d7ca-47ad-bf7f-4b45860ae6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/a</value>
+      <webElementGuid>76601d22-045c-4b2c-bfd2-0d78c3fa999c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu2_manajer.php?validasi=8' and (text() = '
+							Validasi
+						' or . = '
+							Validasi
+						')]</value>
+      <webElementGuid>634055c5-b535-41a1-8cd4-50c297d17970</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

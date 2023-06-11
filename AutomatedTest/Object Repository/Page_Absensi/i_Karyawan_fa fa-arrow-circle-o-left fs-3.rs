@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Karyawan_fa fa-arrow-circle-o-left fs-3</name>
+   <tag></tag>
+   <elementGuidId>21b23315-f01a-4b77-b86a-1fc9b71e8741</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-arrow-circle-o-left.fs-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='logout-button']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>37c2d40d-6689-4e98-8db6-2257b044b722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-arrow-circle-o-left fs-3</value>
+      <webElementGuid>62a60fea-704a-4049-96dc-87556465ec9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logout-button&quot;)/i[@class=&quot;fa fa-arrow-circle-o-left fs-3&quot;]</value>
+      <webElementGuid>71ea6b4a-0ed2-42c6-bdb3-84279c53e031</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='logout-button']/i</value>
+      <webElementGuid>fa194e8e-68f4-454c-814e-95a019e2ed65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/a/i</value>
+      <webElementGuid>3401113b-d58c-49ed-a646-2735af3f2b6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

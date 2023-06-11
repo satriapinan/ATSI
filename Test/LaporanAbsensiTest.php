@@ -22,7 +22,6 @@ class LaporanAbsensiTest extends PHPUnit\Framework\TestCase
         $id = 4;
 
         $result = self::$laporanAbsensi->setStatusValidasi($id);
-
         $this->assertTrue($result);
     }
 }

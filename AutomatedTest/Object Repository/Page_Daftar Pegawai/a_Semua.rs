@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Semua</name>
+   <tag></tag>
+   <elementGuidId>3db25d61-ef4e-4eef-a9be-692a922af5a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Semua')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6100e519-6ae3-401b-907d-a99a283c1726</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>154ec7be-4569-42ca-bbf1-f5b809fcf948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu1_operator.php?sorting_divisi=all</value>
+      <webElementGuid>694b220c-34c8-424e-bb73-cd2e839ba0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	           Semua</value>
+      <webElementGuid>493d9900-b0e9-4faa-a328-e89fd472cd57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown me-2&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[1]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>4f2902df-b9c6-4c8c-9459-39190340380f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Semua')])[2]</value>
+      <webElementGuid>ae631de1-bede-47cb-9a81-dcf65a8c63ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Divisi'])[1]/following::a[1]</value>
+      <webElementGuid>9f79cb06-0bb4-4f49-a031-a3a1f4863469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Pegawai'])[3]/following::a[1]</value>
+      <webElementGuid>e58dbac5-6c30-4140-bcb5-bfe5bc837468</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>0e90f3f6-11ca-48cf-a914-56a9e3827e39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemasaran'])[1]/preceding::a[2]</value>
+      <webElementGuid>65be6fc7-9d38-44c3-aa5d-ebda12674d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu1_operator.php?sorting_divisi=all')]</value>
+      <webElementGuid>273495e4-f756-4c8d-88c4-92f56e368d92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>2c2ff038-fad3-4346-a767-c802cac84274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu1_operator.php?sorting_divisi=all' and (text() = '
+	           Semua' or . = '
+	           Semua')]</value>
+      <webElementGuid>5f024bb4-63c4-4e82-8b1f-35b9eb451dd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

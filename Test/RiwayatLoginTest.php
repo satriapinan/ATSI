@@ -17,24 +17,14 @@ class RiwayatLoginTest extends PHPUnit\Framework\TestCase
         self::$riwayatLogin->close(); // Close the database connection
     }
 
-    public function testGetRiwayatLogin()
-    {
-        $result = self::$riwayatLogin->getRiwayatLogin();
-
-        $this->assertIsArray($result);
-        $this->assertGreaterThan(0, count($result));
-    }
-
     public function testSetRiwayatLogin()
     {
+        $countBefore = count(self::$riwayatLogin->getRiwayatLogin());
+        
         $result = self::$riwayatLogin->setRiwayatLogin('2000514', '2023-06-11', '12:34:56');
-        $count = self::$riwayatLogin->getRiwayatLogin();
-
-        var_dump($result); // Output the result for debugging purposes
-
         $this->assertTrue($result);
 
         $riwayatLoginData = self::$riwayatLogin->getRiwayatLogin();
-        $this->assertCount(count($count), $riwayatLoginData);
+        $this->assertCount($countBefore + 1, $riwayatLoginData);
     }
 }

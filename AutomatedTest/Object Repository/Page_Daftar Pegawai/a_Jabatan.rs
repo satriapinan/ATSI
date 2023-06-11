@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Jabatan</name>
+   <tag></tag>
+   <elementGuidId>f0f4239b-4b87-48fa-b91d-4ca344625fb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu.show > li:nth-of-type(3) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Jabatan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5ccc6d46-5d7d-4d40-8697-61ab07f1f400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>cb01fcc1-982c-461c-8b21-ff055272f089</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu1_operator.php?order=jabatan</value>
+      <webElementGuid>569e851d-d03d-4ff8-9416-1f6faaafa24f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+										Jabatan
+									</value>
+      <webElementGuid>5b81cb8a-7225-43af-90f2-be59c05f83be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[3]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>c04419ff-029a-4bdb-ab9e-e4771d93182c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Jabatan')]</value>
+      <webElementGuid>e2d19ea0-e1ab-4be9-9ed7-53d1672260b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/following::a[1]</value>
+      <webElementGuid>d66a1440-b81b-42ca-a485-3c5e30ac543c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/following::a[2]</value>
+      <webElementGuid>29e19ef8-efdc-4967-9fca-057f55cf2f6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Divisi'])[1]/preceding::a[1]</value>
+      <webElementGuid>76976d1b-d4c9-4e92-b9c6-6d6619e68a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[2]/preceding::a[2]</value>
+      <webElementGuid>de500982-45bd-4229-9026-3df08879a257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jabatan']/parent::*</value>
+      <webElementGuid>7b93ca1a-e873-42f8-a52b-668f6ad59c9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu1_operator.php?order=jabatan')]</value>
+      <webElementGuid>66de18e3-7b3e-44ce-a944-07fabc1e9650</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[3]/a</value>
+      <webElementGuid>95fb3cf1-172c-47d5-85b8-233073777561</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu1_operator.php?order=jabatan' and (text() = '
+										Jabatan
+									' or . = '
+										Jabatan
+									')]</value>
+      <webElementGuid>d1c70ec1-5b26-4d0b-a309-a4f69da0716d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

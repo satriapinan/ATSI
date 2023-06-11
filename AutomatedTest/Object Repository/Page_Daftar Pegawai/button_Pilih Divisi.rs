@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pilih Divisi</name>
+   <tag></tag>
+   <elementGuidId>59bc467e-452e-4c65-a831-3eb7a87e13b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dropdownMenuButton1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dropdownMenuButton1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9884e427-ea49-4e45-ae4f-c78528301ce4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary dropdown-toggle show</value>
+      <webElementGuid>59830b3c-6763-48a2-acc8-3621916cb1ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>699c77e2-f2aa-4a28-8149-dc4fee28792c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dropdownMenuButton1</value>
+      <webElementGuid>9b8ff628-aae5-474c-9cfe-4be2dab86ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>ac0c503c-6e8f-4ecb-a6d5-3c4cf2890fc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>97410710-64d9-48e3-97ea-910d85485d3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								Pilih Divisi
+								</value>
+      <webElementGuid>b6155eaf-516e-4dae-b7b0-62b67f5c0073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown me-2&quot;]/button[@id=&quot;dropdownMenuButton1&quot;]</value>
+      <webElementGuid>f9689365-aa24-486d-ab6d-fc01cf50b304</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='dropdownMenuButton1']</value>
+      <webElementGuid>6a8fcf1f-1894-43b5-ae81-3a207416be7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Pegawai'])[3]/following::button[1]</value>
+      <webElementGuid>fffee906-e3f7-43bb-b1c7-2a521bb802ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manajer'])[1]/following::button[1]</value>
+      <webElementGuid>17280ddf-802c-4b89-b00a-02ce35b67e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[2]/preceding::button[1]</value>
+      <webElementGuid>bda2aa83-d619-48ec-ab60-afb07fd2e35b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrasi'])[1]/preceding::button[1]</value>
+      <webElementGuid>5105a1ba-c4e4-4ab5-8613-35f3567d7138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pilih Divisi']/parent::*</value>
+      <webElementGuid>47793132-a51c-4b6e-987c-fd08361ebfc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>70fdd046-3b03-480d-9f53-7df81bfd7823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'dropdownMenuButton1' and (text() = '
+								Pilih Divisi
+								' or . = '
+								Pilih Divisi
+								')]</value>
+      <webElementGuid>79a462ec-184c-49e0-9ee8-b81d2a940a33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

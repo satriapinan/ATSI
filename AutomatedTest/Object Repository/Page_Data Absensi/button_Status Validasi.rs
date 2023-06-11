@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Status Validasi</name>
+   <tag></tag>
+   <elementGuidId>8f9de49c-1709-4fb3-9ea9-d890bed15e7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dropdownMenuButton1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dropdownMenuButton1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>90a6f21b-9d50-4429-a488-479bd1c20dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary dropdown-toggle show</value>
+      <webElementGuid>276847ab-c623-4734-ae27-99e16616210e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>853f71e6-5122-4716-a05c-d6b5b17847e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dropdownMenuButton1</value>
+      <webElementGuid>57b77837-5a2e-44c9-8f74-988676a83bbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>f5c72003-f370-4c83-ac4d-6198e37289f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2e1d8916-f124-4a81-ba6d-cf0463cf865f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+									Status Validasi
+									</value>
+      <webElementGuid>9c96e56f-7263-4cc2-98c5-4e47a5c69f0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dropdownMenuButton1&quot;)</value>
+      <webElementGuid>8b791386-6e24-441f-9ecf-cb5eb6307194</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='dropdownMenuButton1']</value>
+      <webElementGuid>99d832fd-341b-4e20-9704-e5a16ce493d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Absensi'])[3]/following::button[1]</value>
+      <webElementGuid>477bbf31-ca66-40f5-805b-77e6f5723776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adinda Salsabila'])[1]/following::button[1]</value>
+      <webElementGuid>07bd4508-9ac3-4627-8eff-6ef12543289c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[1]/preceding::button[1]</value>
+      <webElementGuid>767ff505-ff15-42d4-9d7a-e4192edf39d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sudah Validasi'])[1]/preceding::button[1]</value>
+      <webElementGuid>c4a94bf0-27f9-4f48-a7c5-d9905c10081f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Status Validasi']/parent::*</value>
+      <webElementGuid>14cbd4ce-42fa-426a-8b42-51259ab27567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>41fd334d-e30c-495f-9338-96e7e8a4c03b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'dropdownMenuButton1' and (text() = '
+									Status Validasi
+									' or . = '
+									Status Validasi
+									')]</value>
+      <webElementGuid>17cea460-5b19-44d3-bc99-61d41c46a114</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

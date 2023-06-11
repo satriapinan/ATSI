@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Nama</name>
+   <tag></tag>
+   <elementGuidId>a97de4b0-9c47-47c1-91ed-94ecb67eaeb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu.show > li:nth-of-type(2) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nama')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5fe23eea-a7a8-4612-8b5c-3ee9786c5f88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>c206386f-50a0-483e-a4ed-014a0676bf40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu1_operator.php?order=nama</value>
+      <webElementGuid>81414094-2dc8-4c94-bee8-d2b4c312d9f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+										Nama
+									</value>
+      <webElementGuid>0cda5964-0846-4281-907d-952746242b04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>28303ca2-fc6f-47ff-9419-36b66e957cd2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nama')]</value>
+      <webElementGuid>430ec50a-1e14-4b16-9131-ebef43130c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/following::a[1]</value>
+      <webElementGuid>180ae320-9f96-4dce-b888-8065a8493f2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Urut'])[1]/following::a[2]</value>
+      <webElementGuid>8c10cd90-b377-40f9-bda5-c3358e7cefc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jabatan'])[1]/preceding::a[1]</value>
+      <webElementGuid>c62d12fd-599b-4002-94c1-085c5f19c03b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Divisi'])[1]/preceding::a[2]</value>
+      <webElementGuid>3caa9f0e-4e11-4261-9dce-e5a3e7b5a021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nama']/parent::*</value>
+      <webElementGuid>3710f19e-3c79-4f4b-9abd-7ffe8ec753ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu1_operator.php?order=nama')]</value>
+      <webElementGuid>3e9c94fb-f4c0-4961-ba72-e34ac886883d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[2]/a</value>
+      <webElementGuid>8e424ed3-ddcc-4c72-ad83-33a210b4cd7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu1_operator.php?order=nama' and (text() = '
+										Nama
+									' or . = '
+										Nama
+									')]</value>
+      <webElementGuid>e5e228cc-5ddc-47e9-88be-5a8657060ce9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

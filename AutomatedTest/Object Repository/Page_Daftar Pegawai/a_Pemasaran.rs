@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pemasaran</name>
+   <tag></tag>
+   <elementGuidId>c1ce06db-88b4-4c40-a077-2cbfd7f50767</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Pemasaran')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b601f828-4c32-4602-95bd-0fcc60f088de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>5c8662d2-b50c-4c83-9f1f-d862a404d994</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu1_operator.php?sorting_divisi=Pemasaran</value>
+      <webElementGuid>6074e139-2ff9-4ea2-9166-0d9f4b9b76f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	            Pemasaran</value>
+      <webElementGuid>4a27e76d-3af9-4ff4-a1f3-7a2d56868c0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown me-2&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[3]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>e74311b6-75bf-4da4-9fe4-ae767e287261</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pemasaran')]</value>
+      <webElementGuid>9053c945-a369-4ae1-ac5f-d2b81c436e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrasi'])[1]/following::a[1]</value>
+      <webElementGuid>8b603780-7f8a-4011-9f22-1e26412afb71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[2]/following::a[2]</value>
+      <webElementGuid>5b105edb-c684-4332-b9f8-b433f472638e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Urut'])[1]/preceding::a[1]</value>
+      <webElementGuid>cda79aa8-c296-4855-8d56-8756e37adb8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/preceding::a[1]</value>
+      <webElementGuid>f2b56059-f09e-42b7-a1b9-1db71d42eb05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pemasaran']/parent::*</value>
+      <webElementGuid>14117518-5e9b-4b0b-a8c7-33ee06ec1581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu1_operator.php?sorting_divisi=Pemasaran')]</value>
+      <webElementGuid>f8835592-c2ad-4250-9305-80b673081298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>ec235bf3-763e-4b6c-8af2-03f06ce477e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu1_operator.php?sorting_divisi=Pemasaran' and (text() = '
+	            Pemasaran' or . = '
+	            Pemasaran')]</value>
+      <webElementGuid>3a71e93c-f433-4512-9680-4787570db5da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

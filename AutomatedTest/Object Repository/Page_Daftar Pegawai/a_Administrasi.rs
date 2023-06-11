@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Administrasi</name>
+   <tag></tag>
+   <elementGuidId>b99436be-b948-4dbd-a916-3cc4061d69e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Administrasi')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>71cb2f24-e44e-47cd-8a42-03cca585f707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>8bdb56f1-9314-4854-9d65-0241ca4d240c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>menu1_operator.php?sorting_divisi=Administrasi</value>
+      <webElementGuid>17dcd9c3-5a3b-4fb5-9403-8f74b8e18fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	            Administrasi</value>
+      <webElementGuid>df7be02e-bbf3-42b3-b710-ddff067e5d1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;container-fluid vh-100 bg-light&quot;]/main[@class=&quot;row&quot;]/content[@class=&quot;col&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;d-flex mb-3 justify-content-between align-items-center&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;dropdown me-2&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>e7636494-5ebe-4eba-85e4-05bda8627cc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Administrasi')]</value>
+      <webElementGuid>10c218b4-c843-4cbd-a451-0504681f170c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua'])[2]/following::a[1]</value>
+      <webElementGuid>a2a4a4cc-fd11-4d25-8609-d08d4c375aa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Divisi'])[1]/following::a[2]</value>
+      <webElementGuid>3d3328fd-6241-46d9-927b-45b70929577e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemasaran'])[1]/preceding::a[1]</value>
+      <webElementGuid>bcb7f2fa-c585-4983-b0e2-2972551c544a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Urut'])[1]/preceding::a[2]</value>
+      <webElementGuid>d32e9e77-e253-4677-9768-1810dc302982</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Administrasi']/parent::*</value>
+      <webElementGuid>c28df83b-775a-4fd8-b052-acc7dd52f78b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'menu1_operator.php?sorting_divisi=Administrasi')]</value>
+      <webElementGuid>dc0e97bc-3799-4931-85d5-634a59f0bc2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>e0d7a7c7-be23-4489-9cf6-a11d6815cad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'menu1_operator.php?sorting_divisi=Administrasi' and (text() = '
+	            Administrasi' or . = '
+	            Administrasi')]</value>
+      <webElementGuid>7db930aa-4a53-450e-b793-93c62bcd2a5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

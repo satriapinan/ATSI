@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Manajer_fa fa-address-book-o fs-3</name>
+   <tag></tag>
+   <elementGuidId>9be81fbe-a424-4532-a120-0d2baab6430b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-address-book-o.fs-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-button']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9f48700a-46ab-4e59-9a7e-6bc2abaa9ffd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-address-book-o fs-3</value>
+      <webElementGuid>2064a140-3f98-4d37-a27a-6e5a883f6bc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-button&quot;)/i[@class=&quot;fa fa-address-book-o fs-3&quot;]</value>
+      <webElementGuid>29423e6d-7264-4b71-8102-2dca93b8d238</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='menu-button']/i</value>
+      <webElementGuid>fabcb7a6-ca1b-434f-92bd-950cb00624c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a/i</value>
+      <webElementGuid>6dd43634-d23e-4af8-8861-0213a076aca7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
